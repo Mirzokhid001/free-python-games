@@ -4,7 +4,7 @@ pipeline {
 		stage("Run the code!") {
 			steps {
 				sh """
-					python3 multiple_game_ziyo.py
+					python3 -m pip install freegames
 				"""
 			} //steps
 		} //stage
